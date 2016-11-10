@@ -23,7 +23,7 @@ Crea copia de un repositorio, sea local o remoto.
 
 **git pull :** Permite actualizar tu repositorio local con el último commit realizado sobre el repositorio. 
 
-**git push:** 
+**git push:** Reemplaza master por la rama a la que quieres enviar tus cambios.
 
 **git checkout:** Descargar repositorio o reemplazar cambios en un repositorio local con el contenido del repositorio en GIT.
 
@@ -33,7 +33,7 @@ Crea copia de un repositorio, sea local o remoto.
 
 **git commit -am"primer commit": **
 
-**git pull rebase: **
+**git pull rebase: ** 
 
 **git stash **
 
