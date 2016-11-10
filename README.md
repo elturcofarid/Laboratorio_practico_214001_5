@@ -3,17 +3,17 @@
 
 ## 1)	Investigar.
 
-a.	 ¿Qué es Git?, ¿Que lo hace diferente a otros sistemas de versionamiento?
-b.	¿Qué es Github?, ¿Por qué es importante para nosotros en este curso?
+####a.	 ¿Qué es Git?, ¿Que lo hace diferente a otros sistemas de versionamiento?
+####b.	¿Qué es Github?, ¿Por qué es importante para nosotros en este curso?
 
 Explicar los siguientes comandos en sus propias palabras. 
 git clone: obtener una copia de un repositorio Git existente
 Puedes clonar un repositorio con git clone [url]. Por ejemplo, si quieres clonar la librería Ruby llamada Grit, harías algo así:
 
-$ git clone git://github.com/schacon/grit.git
-git pull: Incorpora cambios con respecto a un repositorio remoto en la rama actual.
+####$ git clone git://github.com/schacon/grit.git
+####git pull: Incorpora cambios con respecto a un repositorio remoto en la rama actual.
 
-git pull [opciones] [<repositorio> [<refspec> ...]]
+####git pull [opciones] [<repositorio> [<refspec> ...]]
 
 <repositorio> debe ser el nombre de un repositorio remoto como los pasados a git-fetch [1] . <Refspec> puede nombrar a un árbitro a distancia arbitraria (por ejemplo, el nombre de una etiqueta) o incluso una colección de referencias con ramas de seguimiento remoto correspondiente (por ejemplo, refs / heads / *: refs / mandos a distancia / origen / *), pero por lo general, es el nombre de una rama en el repositorio remoto.
 
@@ -123,9 +123,9 @@ Nota 	Cuando la rama remota que se desea obtener es conocido por ser rebobinado 
 Nota 	Hay una diferencia entre el listado múltiple <refspec> directamente en la línea de comandos git tirón y que tiene múltiples remote.<repository>.fetch entradas en su configuración para un <repositorio> y ejecutar un comando git pull sin ningún <> refspec parámetros explícitos. <Refspec> s que aparece explícitamente en la línea de comandos siempre se fusionan en la rama actual después de obtenerlo. En otras palabras, si la lista de más de un árbitro con mando a distancia, git pull creará una combinación de pulpo. Por otro lado, si usted no incluye ningún parámetro explícito <refspec> en la línea de comandos, git pull obtendrá toda la <refspec> s que encuentra en el remote.<repository>.fetch configuración y fusionar sólo el primer <refspec > encontrado en la rama actual. Esto se debe hacer un pulpo de referencias remotas se realiza con poca frecuencia, mientras que el seguimiento de múltiples cabezas remotas en una sola ir por ir a buscar más de uno es a menudo útil.
 
 
-git push: Actualizaciones referencias remotas utilizando árbitros locales, mientras que el envío de objetos necesarios para completar las referencias dadas.
+####git push: Actualizaciones referencias remotas utilizando árbitros locales, mientras que el envío de objetos necesarios para completar las referencias dadas.
 
-git push [--all |  --mirror |  --tags] [--follow-tags] [--atomic] [-n |  --dry de gestión] [--receive-pack = <git-recibir-pack>]
+####git push [--all |  --mirror |  --tags] [--follow-tags] [--atomic] [-n |  --dry de gestión] [--receive-pack = <git-recibir-pack>]
 	    [--repo = <Repositorio>] [-f |  --force] [-d |  --delete] [--prune] [-v |  --verboso]
 	    [-u |  --set-aguas arriba] [-opción --push = <cadena>]
 	    [- [No-] firmado | --sign = (true | false | Si-pedido)]
