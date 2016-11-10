@@ -2,11 +2,14 @@
 
 
 ## 1)	Investigar.
+
 a.	 ¿Qué es Git?, ¿Que lo hace diferente a otros sistemas de versionamiento?
 b.	¿Qué es Github?, ¿Por qué es importante para nosotros en este curso?
+
 Explicar los siguientes comandos en sus propias palabras. 
 git clone: obtener una copia de un repositorio Git existente
 Puedes clonar un repositorio con git clone [url]. Por ejemplo, si quieres clonar la librería Ruby llamada Grit, harías algo así:
+
 $ git clone git://github.com/schacon/grit.git
 git pull: Incorpora cambios con respecto a un repositorio remoto en la rama actual.
 
