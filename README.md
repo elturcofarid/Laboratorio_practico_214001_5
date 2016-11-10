@@ -53,6 +53,7 @@ Plataforma de computación en la nube, desarrollada en Junio de 2007, permite so
 
 ###4) Registrarse en la plataforma de Heroku y descargar Heroku Toolbet para desarrollar aplicaciones. Herramientas de Software 
 
+![](imagen1.png)
 
 Imagen de creacion de cuenta
 
