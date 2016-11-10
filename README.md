@@ -44,8 +44,12 @@ Crea copia de un repositorio, sea local o remoto.
 **git cherry-pick **
 
 ###3) Investigar. 
-a. ¿Qué significan las siglas IaaS, PaaS, y SaaS? Explique las diferencias con ejemplos prácticos. 
+
+a. ¿Qué significan las siglas IaaS, PaaS, y SaaS? Explique las diferencias con ejemplos prácticos.
+
+
 b. ¿Qué es Heroku? 
+
 Plataforma de computación en la nube, desarrollada en Junio de 2007, permite soportar distintos lenguajes de programación y cuya base del sistema operativo es Debian Ubuntu.
 
 
