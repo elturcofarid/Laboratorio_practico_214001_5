@@ -18,7 +18,7 @@
 
 
 
-**git clone **:
+**git clone**:
 Crea copia de un repositorio, sea local o remoto.
 
 **git pull :** Permite actualizar tu repositorio local con el último commit realizado sobre el repositorio. 
