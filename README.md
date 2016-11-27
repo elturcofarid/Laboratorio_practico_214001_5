@@ -96,9 +96,9 @@ b. ¿Cómo podría una empresa colombiana usar el Twitter Streaming API?
 
 ###10) Registrarse para crear una aplicación que use el Twitter Streaming API. Generar las diferentes claves de AUTH2 para poder usar el API. 
 
-![](Setting.png)
+![](Setting.PNG)
 
-![](Token.png)
+![](Token.PNG)
 
 
 
