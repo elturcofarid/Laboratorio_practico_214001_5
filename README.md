@@ -31,17 +31,17 @@ Crea copia de un repositorio, sea local o remoto.
 
 **git checkout -b "nombre" :** crea una nueva rama, con el “nombre” especificado.
 
-**git commit -am"primer commit": **
+**git commit -am"primer commit": ** comandoque permite crear una única confirmación.
 
-**git pull rebase: ** 
+**git pull rebase: **: Incorpora cambios con respecto a un repositorio remoto en la rama actual.
 
-**git stash **
+**git stash **: Se utiliza cuando se desea registrar el estado actual del directorio de trabajo y el índice, pero desea volver a un directorio de trabajo limpio. 
 
-**git stash pop **
+**git stash pop **: Permite retirar un solo estado escondido en la lista escondite y aplicarlo en la parte superior del estado del árbol de trabajo actual, es decir, hacer la operación inversa de git stash save .
 
-**git reset **
+**git reset **: Permite copiar entradas de <tree-ish> para el índice. 
 
-**git cherry-pick **
+
 
 ###3) Investigar. 
 
