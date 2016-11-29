@@ -144,7 +144,7 @@ Dar un ejemplo de su uso en productos comerciales o por parte de alguna empresa.
 Por ejemplo, considere una aplicación web que acepta peticiones de los usuarios, hace una o más peticiones a la API de Twitter, a continuación, formatos e imprime el resultado al usuario, como una respuesta a la petición inicial del usuario: 
 
 
-![](Setting.PNG)
+![](Api Twitter.png)
 
 
 b. ¿Cómo podría una empresa colombiana usar el Twitter Streaming API? 
