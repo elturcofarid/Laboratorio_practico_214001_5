@@ -148,7 +148,11 @@ Por ejemplo, considere una aplicación web que acepta peticiones de los usuarios
 
 Una aplicación que se conecta a la Transmisión de API no será capaz de establecer una conexión en respuesta a una solicitud del usuario, como se muestra en el ejemplo anterior. En su lugar, el código para el mantenimiento de la conexión de transmisión normalmente se ejecuta en un proceso independiente del proceso que trata las solicitudes HTTP: 
 
-![](Api Twitter.png)
+![](Api_twitter_2.png)
+
+El proceso de transmisión obtiene los Tweets de entrada y lleva a cabo cualquier análisis, el filtrado, y / o agregación necesaria antes de guardar el resultado a un almacén de datos. El proceso de manipulación de HTTP consulta el almacén de datos de resultados en respuesta a peticiones de los usuarios. Si bien este modelo es más complejo que el primer ejemplo, los beneficios de tener un flujo en tiempo real de los datos Tweet hacen que la integración de mérito para muchos tipos de aplicaciones. 
+https://dev.twitter.com/streaming/overview
+
 
 
 b. ¿Cómo podría una empresa colombiana usar el Twitter Streaming API? 
