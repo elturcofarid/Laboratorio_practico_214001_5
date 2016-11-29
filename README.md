@@ -146,6 +146,10 @@ Por ejemplo, considere una aplicación web que acepta peticiones de los usuarios
 
 ![](Api Twitter.png)
 
+Una aplicación que se conecta a la Transmisión de API no será capaz de establecer una conexión en respuesta a una solicitud del usuario, como se muestra en el ejemplo anterior. En su lugar, el código para el mantenimiento de la conexión de transmisión normalmente se ejecuta en un proceso independiente del proceso que trata las solicitudes HTTP: 
+
+![](Api Twitter.png)
+
 
 b. ¿Cómo podría una empresa colombiana usar el Twitter Streaming API? 
 
